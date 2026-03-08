@@ -469,23 +469,6 @@ OpenClaw natively supports 15+ messaging platforms via its Gateway:
    └────────────┘ └─────────┘   └───────────┘  └───────────┘ └─────────┘
 ```
 
-### Language Distribution
-
-| Language | Projects | Share |
-|----------|----------|-------|
-| Rust | 9 | 14% |
-| TypeScript | 14 | 22% |
-| Python | 12 | 19% |
-| C / C++ | 7 | 11% |
-| Go | 4 | 6% |
-| Zig | 1 | 2% |
-| JavaScript | 3 | 5% |
-| Crystal | 1 | 2% |
-| Shell | 2 | 3% |
-| MicroPython | 1 | 2% |
-| Nix | 3 | 5% |
-| Mixed / N/A | 6 | 9% |
-
 ### Deployment Options
 
 | Method | Difficulty | Cost |

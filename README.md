@@ -18,6 +18,21 @@
 
 ---
 
+```
+╔══════════════════════════════════════════════════════════════╗
+║  📋 CHANGELOG                                               ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  🆕 2025-03-14                                               ║
+║  └─ + ClawSwarm — Multi-Agent & Orchestration                ║
+║      Lightweight multi-agent alternative built on Swarms.    ║
+║      → See: #multi-agent--orchestration                      ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+> **Latest update:** 2025-03-14 — Added [ClawSwarm](#multi-agent--orchestration) to Multi-Agent & Orchestration.
+
 ## Contents
 
 - [The Foundation](#the-foundation)

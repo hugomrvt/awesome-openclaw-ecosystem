@@ -13,7 +13,7 @@
 
 <br>
 
-## 🚀 **Update Payload: `v25.03.14`**
+## 🚀 **Update Payload: `v14.03.25`**
 
 > **TL;DR** — A massive expansion of the ecosystem, introducing our new lightweight orchestration framework, foundational research benchmarks, a lightning-fast router, and three major community hubs.
 

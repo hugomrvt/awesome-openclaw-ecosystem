@@ -26,12 +26,22 @@
 ║  🆕 2025-03-14                                               ║
 ║  └─ + ClawSwarm — Multi-Agent & Orchestration                ║
 ║      Lightweight multi-agent alternative built on Swarms.    ║
-║      → See: #multi-agent--orchestration                      ║
+║      → See: #multi-agent--orchestration                          ║
+║                                                              ║
+║  🆕 2025-03-14                                                ║
+║  └─ + OpenClaw-RL — Benchmarks & Research                     ║
+║  └─ + MetaClaw — Benchmarks & Research                        ║
+║  └─ + ClawRouter — High-Performance Runtimes                  ║
+║  └─ + agents-radar — Community Resources                      ║
+║  └─ + awesome-openclaw-usecases — Community Resources         ║
+║  └─ + awesome-claws (LHL3341) — Community Resources           ║
+║       → See: #benchmarks--research #high-performance-runtimes ║
+║              #community-resources                      ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-> **Latest update:** 2025-03-14 — Added [ClawSwarm](#multi-agent--orchestration) to Multi-Agent & Orchestration.
+> **Latest update:** 2025-03-14 — Added 6 new projects: [OpenClaw-RL](#benchmarks--research), [MetaClaw](#benchmarks--research), [ClawRouter](#high-performance-runtimes), [agents-radar](#community-resources), [awesome-openclaw-usecases](#community-resources), [awesome-claws (LHL3341)](#community-resources).
 
 ## Contents
 
@@ -118,6 +128,7 @@
 | [Microclaw](https://github.com/microclaw/microclaw) | Rust | ![GitHub stars](https://img.shields.io/github/stars/microclaw/microclaw?style=flat-square) | Agentic AI assistant for chat surfaces, inspired by NanoClaw. |
 | [OpenFang](https://github.com/RightNow-AI/openfang) | Rust | ![GitHub stars](https://img.shields.io/github/stars/RightNow-AI/openfang?style=flat-square) | Open-source Agent OS — 137K LOC, 14 crates, 1,767+ tests, zero clippy warnings. |
 | [Carapace (Rust)](https://github.com/puremachinery/carapace) | Rust | ![GitHub stars](https://img.shields.io/github/stars/puremachinery/carapace?style=flat-square) | Hardened Rust alternative extensible via WASM plugins — "for when your assistant needs a hard shell." |
+| [ClawRouter](https://github.com/BlockRunAI/ClawRouter) | TypeScript | ![GitHub stars](https://img.shields.io/github/stars/BlockRunAI/ClawRouter?style=flat-square) | Agent-native LLM router for OpenClaw — 41+ models, <1ms routing, USDC payments on Base & Solana via x402. |
 
 ## Edge & Embedded
 
@@ -370,6 +381,8 @@ OpenClaw natively supports 15+ messaging platforms via its Gateway:
 |---------|----------|-------|-------------|
 | [ClawWork](https://github.com/HKUDS/ClawWork) | Python | ![GitHub stars](https://img.shields.io/github/stars/HKUDS/ClawWork?style=flat-square) | Turns agents into economically responsible AI Coworkers — 220 GDP tasks across 44 industries. |
 | [PinchBench](https://pinchbench.com) | TypeScript | — | Open-source real-world benchmark — 23 tasks (calendar, research, email, coding). [Leaderboard](https://pinchbench.com). |
+| [OpenClaw-RL](https://github.com/Gen-Verse/OpenClaw-RL) | TypeScript | ![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/OpenClaw-RL?style=flat-square) | Async RL framework by Princeton — train a personalized agent simply by talking to it. Binary feedback or token-level distillation. [Paper](https://arxiv.org/abs/2603.10165). |
+| [MetaClaw](https://github.com/aiming-lab/MetaClaw) | Python | ![GitHub stars](https://img.shields.io/github/stars/aiming-lab/MetaClaw?style=flat-square) | Meta-learning for OpenClaw — OpenAI-compatible proxy that intercepts interactions, injects skills, and fine-tunes via LoRA in real-time. |
 
 ## Agent Social Networks
 
@@ -400,6 +413,9 @@ OpenClaw natively supports 15+ messaging platforms via its Gateway:
 | [r/openclaw](https://www.reddit.com/r/openclaw/) | Main Reddit community. |
 | [r/openclawsetup](https://www.reddit.com/r/openclawsetup/) | Setup-focused subreddit. |
 | [ClawCon](https://www.claw-con.com) | Official event series — 20+ cities worldwide. |
+| [agents-radar](https://github.com/duanyytop/agents-radar) | GitHub Actions workflow tracking OpenClaw ecosystem, Claude Code, Codex, Gemini CLI, and AI trending — daily bilingual digests, MCP server, RSS, Telegram. |
+| [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | Community collection of 34+ real-world OpenClaw use cases — DevOps, creative pipelines, finance, research. |
+| [awesome-claws (LHL3341)](https://github.com/LHL3341/awesome-claws) | Curated list of OpenClaw-related products, skills, communities, and ecosystem resources by use case. |
 
 ## Learning Resources
 

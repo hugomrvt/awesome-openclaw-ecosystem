@@ -157,6 +157,7 @@
 | [troublemaker](https://github.com/tinyfatco/troublemaker) | TypeScript | ![GitHub stars](https://img.shields.io/github/stars/tinyfatco/troublemaker?style=flat-square) | Cross-platform AI agent runtime. |
 | [openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control) | — | ![GitHub stars](https://img.shields.io/github/stars/abhi1693/openclaw-mission-control?style=flat-square) | Multi-agent orchestration dashboard — management, task assignment, collaborative coordination. |
 | [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | Python | ![GitHub stars](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI?style=flat-square) | Extensible open-source multi-agent framework for autonomous AI agents. |
+| [ClawSwarm](https://github.com/The-Swarm-Corporation/ClawSwarm) | Python | ![GitHub stars](https://img.shields.io/github/stars/The-Swarm-Corporation/ClawSwarm?style=flat-square) | Lightweight multi-agent alternative to OpenClaw built on Swarms — director/workers hierarchy, gRPC gateway, Telegram/Discord/WhatsApp, persistent memory, planned Rust compilation path. |
 
 ## Autonomous & Specialized Agents
 

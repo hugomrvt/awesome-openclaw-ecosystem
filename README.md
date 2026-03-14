@@ -18,30 +18,8 @@
 
 ---
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║  📋 CHANGELOG                                               ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║  🆕 2025-03-14                                               ║
-║  └─ + ClawSwarm — Multi-Agent & Orchestration                ║
-║      Lightweight multi-agent alternative built on Swarms.    ║
-║      → See: #multi-agent--orchestration                          ║
-║                                                              ║
-║  🆕 2025-03-14                                                ║
-║  └─ + OpenClaw-RL — Benchmarks & Research                     ║
-║  └─ + MetaClaw — Benchmarks & Research                        ║
-║  └─ + ClawRouter — High-Performance Runtimes                  ║
-║  └─ + agents-radar — Community Resources                      ║
-║  └─ + awesome-openclaw-usecases — Community Resources         ║
-║  └─ + awesome-claws (LHL3341) — Community Resources           ║
-║       → See: #benchmarks--research #high-performance-runtimes ║
-║              #community-resources                      ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
+> **📝 [View Full Changelog](changelog.md)** — Detailed record of all ecosystem updates, new projects, and changes.
 
-> **Latest update:** 2025-03-14 — Added 6 new projects: [OpenClaw-RL](#benchmarks--research), [MetaClaw](#benchmarks--research), [ClawRouter](#high-performance-runtimes), [agents-radar](#community-resources), [awesome-openclaw-usecases](#community-resources), [awesome-claws (LHL3341)](#community-resources).
 
 ## Contents
 

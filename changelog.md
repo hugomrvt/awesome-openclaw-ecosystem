@@ -6,7 +6,7 @@
 <br>
 
 <a href="#"><img src="https://img.shields.io/badge/Latest_Release-April_4,_2026-000000?style=for-the-badge&logo=rocket&logoColor=white&labelColor=312E81&color=1E1B4B" alt="Date" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Ecosystem_Growth-+10_Projects-000000?style=for-the-badge&logo=sparkles&logoColor=FDE047&labelColor=064E3B&color=022C22" alt="Growth" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Ecosystem_Growth-+22_Projects-000000?style=for-the-badge&logo=sparkles&logoColor=FDE047&labelColor=064E3B&color=022C22" alt="Growth" /></a>
 <a href="#"><img src="https://img.shields.io/badge/System_Status-Optimal-000000?style=for-the-badge&logo=checkmarx&logoColor=86EFAC&labelColor=1C1917&color=292524" alt="Status" /></a>
 
 </div>
@@ -15,7 +15,7 @@
 
 ## 🚀 **Update Payload: `v04.04.26`**
 
-> **TL;DR** — 10 new projects spanning security hardening, high-performance C++/Rust runtimes, NVIDIA's managed stack, a Python SDK, new dashboards, and the first hardware device with native OpenClaw support.
+> **TL;DR** — 22 new projects spanning security hardening, high-performance C++/Rust runtimes, NVIDIA's managed stack, ByteDance's context database, Go rewrites, Chinese channel plugins, multi-agent orchestration, a Python SDK, new dashboards, smart glasses, and the first hardware device with native OpenClaw support.
 
 <br>
 
@@ -65,15 +65,58 @@
 |  | Project & Nexus | Specifications & Architecture | Gateway |
 |:---:|:---|:---|:---:|
 | <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **OpenClaw Studio**<br><sub>`@tooling`</sub> | <kbd>Stack</kbd> Web dashboard via `npx`.<br><kbd>Focus</kbd> Agent management, chat, approvals, job config. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#tooling-uis--dashboards) |
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **Star-Office-UI**<br><sub>`@tooling`</sub> | <kbd>Stack</kbd> Pixel office visualization.<br><kbd>Focus</kbd> Cozy workspace with characters, daily notes, guest agents. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#tooling-uis--dashboards) |
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **openclaw-control-center**<br><sub>`@tooling`</sub> | <kbd>Stack</kbd> Local control center dashboard.<br><kbd>Focus</kbd> Visibility, trust, and control for your agent. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#tooling-uis--dashboards) |
+
+<br>
+
+### 🔀 `Forks & Rewrites`
+*New language ports and team-oriented rebuilds.*
+
+|  | Project & Nexus | Specifications & Architecture | Gateway |
+|:---:|:---|:---|:---:|
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **GoClaw**<br><sub>`@forks`</sub> | <kbd>Stack</kbd> Go rewrite with multi-tenant isolation.<br><kbd>Focus</kbd> 5-layer security, native concurrency. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#forks--rewrites) |
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **Clawith**<br><sub>`@forks`</sub> | <kbd>Stack</kbd> Python — OpenClaw for Teams.<br><kbd>Focus</kbd> Multi-agent collaboration, shared workspaces. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#forks--rewrites) |
+
+<br>
+
+### 🤖 `Multi-Agent & Orchestration`
+*New orchestration frameworks.*
+
+|  | Project & Nexus | Specifications & Architecture | Gateway |
+|:---:|:---|:---|:---:|
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **Edict**<br><sub>`@orchestration`</sub> | <kbd>Stack</kbd> 9-agent orchestration system.<br><kbd>Focus</kbd> Real-time dashboard, model config, audit trails. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#multi-agent--orchestration) |
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **Antfarm**<br><sub>`@orchestration`</sub> | <kbd>Stack</kbd> One-command agent team builder.<br><kbd>Focus</kbd> Composable multi-agent setup. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#multi-agent--orchestration) |
+
+<br>
+
+### 🔌 `Plugins & Extensions`
+*Channel plugins and memory enhancements.*
+
+|  | Project & Nexus | Specifications & Architecture | Gateway |
+|:---:|:---|:---|:---:|
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **openclaw-china**<br><sub>`@channels`</sub> | <kbd>Type</kbd> China channel bundle.<br><kbd>Focus</kbd> Feishu, DingTalk, QQ, WeCom, WeChat. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#plugins--extensions) |
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **openclaw-lark**<br><sub>`@larksuite`</sub> | <kbd>Type</kbd> Official Lark/Feishu plugin.<br><kbd>Focus</kbd> By Lark Suite. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#plugins--extensions) |
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **memory-lancedb-pro**<br><sub>`@memory`</sub> | <kbd>Type</kbd> Enhanced LanceDB memory plugin.<br><kbd>Focus</kbd> Hybrid Vector+BM25 retrieval, cross-encoder rerank. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#plugins--extensions) |
+
+<br>
+
+### 🧠 `Memory & Knowledge`
+*Context databases for agents.*
+
+|  | Project & Nexus | Specifications & Architecture | Gateway |
+|:---:|:---|:---|:---:|
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **OpenViking**<br><sub>`@volcengine`</sub> | <kbd>Stack</kbd> Context database by ByteDance.<br><kbd>Focus</kbd> Unifies memory, resources, skills via filesystem paradigm. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#memory--knowledge) |
 
 <br>
 
 ### 🏠 `Voice & Home Automation`
-*Hardware meets AI agents.*
+*Hardware and wearable AI agents.*
 
 |  | Project & Nexus | Specifications & Architecture | Gateway |
 |:---:|:---|:---|:---:|
 | <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **SwitchBot AI Hub**<br><sub>`@hardware`</sub> | <kbd>Type</kbd> First local home AI agent hardware.<br><kbd>Focus</kbd> Native OpenClaw, 100+ devices, Matter, Frigate. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#voice--home-automation) |
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **VisionClaw**<br><sub>`@wearables`</sub> | <kbd>Type</kbd> Meta Ray-Ban smart glasses assistant.<br><kbd>Focus</kbd> Real-time voice + vision + agentic actions. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#voice--home-automation) |
 
 <br>
 

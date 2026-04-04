@@ -10,7 +10,7 @@
 
 **A comprehensive, community-driven collection of projects, tools, and resources built around [OpenClaw](https://github.com/openclaw/openclaw) — the open-source personal AI agent.**
 
-130+ projects across 20 categories · Rust to Zig · Cloud to ESP32
+145+ projects across 20 categories · Rust to Zig · Cloud to ESP32
 
 [Submit a Project](#contributing) · [Report Broken Link](https://github.com/hugomrvt/awesome-openclaw-ecosystem/issues) · [Suggest Category](https://github.com/hugomrvt/awesome-openclaw-ecosystem/issues)
 
@@ -137,6 +137,8 @@
 | [OpenBrowserClaw](https://github.com/sachaa/openbrowserclaw) | JavaScript | ![GitHub stars](https://img.shields.io/github/stars/sachaa/openbrowserclaw?style=flat-square) | Browser-native personal AI assistant — zero infrastructure, the browser is the server. |
 | [MonClaw](https://cefboud.com/posts/monclaw-a-light-openclaw-with-opencode-sdk/) | TypeScript | — | Minimal OpenClaw clone built with OpenCode SDK — Telegram + WhatsApp adapters. |
 | [mini-openclaw](https://gist.github.com/dabit3/bc60d3bea0b02927995cd9bf53c3db32) | Python | — | "You Could've Invented OpenClaw" — ~500-line reference implementation of gateway, sessions, memory, multi-agent, cron. |
+| [GoClaw](https://github.com/nextlevelbuilder/goclaw) | Go | ![GitHub stars](https://img.shields.io/github/stars/nextlevelbuilder/goclaw?style=flat-square) | OpenClaw rebuilt in Go with multi-tenant isolation, 5-layer security, and native concurrency. |
+| [Clawith](https://github.com/dataelement/Clawith) | Python | ![GitHub stars](https://img.shields.io/github/stars/dataelement/Clawith?style=flat-square) | OpenClaw for Teams — multi-agent collaboration platform with shared workspaces. |
 
 ## Security & Privacy
 
@@ -168,6 +170,8 @@
 | [openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control) | — | ![GitHub stars](https://img.shields.io/github/stars/abhi1693/openclaw-mission-control?style=flat-square) | Multi-agent orchestration dashboard — management, task assignment, collaborative coordination. |
 | [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | Python | ![GitHub stars](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI?style=flat-square) | Extensible open-source multi-agent framework for autonomous AI agents. |
 | [ClawSwarm](https://github.com/The-Swarm-Corporation/ClawSwarm) | Python | ![GitHub stars](https://img.shields.io/github/stars/The-Swarm-Corporation/ClawSwarm?style=flat-square) | Lightweight multi-agent alternative to OpenClaw built on Swarms — director/workers hierarchy, gRPC gateway, Telegram/Discord/WhatsApp, persistent memory, planned Rust compilation path. |
+| [Edict](https://github.com/cft0808/edict) | Python | ![GitHub stars](https://img.shields.io/github/stars/cft0808/edict?style=flat-square) | "Three Departments and Six Ministries" orchestration — 9 specialized AI agents with real-time dashboard, model config, and full audit trails. |
+| [Antfarm](https://github.com/snarktank/antfarm) | TypeScript | ![GitHub stars](https://img.shields.io/github/stars/snarktank/antfarm?style=flat-square) | Build your agent team in OpenClaw with one command — composable multi-agent setup. |
 
 ## Autonomous & Specialized Agents
 
@@ -308,6 +312,9 @@
 | [openclaw-observability-plugin](https://github.com/henrikrexed/openclaw-observability-plugin) | Observability | Full OpenTelemetry — traces, metrics, logs, LLM token usage, tool executions. ![GitHub stars](https://img.shields.io/github/stars/henrikrexed/openclaw-observability-plugin?style=flat-square) |
 | [wp-openclaw](https://github.com/Sarai-Chinwag/wp-openclaw) | WordPress | AI agent that controls a WordPress site — not just edits, but runs it. ![GitHub stars](https://img.shields.io/github/stars/Sarai-Chinwag/wp-openclaw?style=flat-square) |
 | [openclaw-channel-dingtalk](https://github.com/soimy/openclaw-channel-dingtalk) | Channel | DingTalk bot channel plugin using Stream Mode. ![GitHub stars](https://img.shields.io/github/stars/soimy/openclaw-channel-dingtalk?style=flat-square) |
+| [openclaw-china](https://github.com/BytePioneer-AI/openclaw-china) | Channel | China channel plugins — Feishu, DingTalk, QQ, WeCom, WeChat in one package. ![GitHub stars](https://img.shields.io/github/stars/BytePioneer-AI/openclaw-china?style=flat-square) |
+| [openclaw-lark](https://github.com/larksuite/openclaw-lark) | Channel | Official Lark/Feishu channel plugin by Lark Suite. ![GitHub stars](https://img.shields.io/github/stars/larksuite/openclaw-lark?style=flat-square) |
+| [memory-lancedb-pro](https://github.com/CortexReach/memory-lancedb-pro) | Memory | Enhanced LanceDB memory plugin — hybrid retrieval (Vector + BM25), cross-encoder rerank, multi-scope isolation. ![GitHub stars](https://img.shields.io/github/stars/CortexReach/memory-lancedb-pro?style=flat-square) |
 
 ### Built-in Messaging Channels
 
@@ -340,6 +347,8 @@ OpenClaw natively supports 15+ messaging platforms via its Gateway:
 | [explain-openclaw](https://github.com/centminmod/explain-openclaw) | Documentation | Multi-AI architecture deep dives, security audits, deployment guides. ![GitHub stars](https://img.shields.io/github/stars/centminmod/explain-openclaw?style=flat-square) |
 | [OpenClaw Studio](https://github.com/grp06/openclaw-studio) | Web UI | Clean web dashboard — connect your Gateway, manage agents, chat, handle approvals, and configure jobs. Run via `npx openclaw-studio@latest`. ![GitHub stars](https://img.shields.io/github/stars/grp06/openclaw-studio?style=flat-square) |
 | [OpenClaw Dashboard (actionagentai)](https://github.com/actionagentai/openclaw-dashboard) | Web UI | Modern 12-page web interface for managing OpenClaw gateway — every CLI command as a UI page with speech-to-text everywhere. ![GitHub stars](https://img.shields.io/github/stars/actionagentai/openclaw-dashboard?style=flat-square) |
+| [Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) | Web UI | Pixel office visualization for your OpenClaw — cozy workspace with characters, daily notes, and guest agents. ![GitHub stars](https://img.shields.io/github/stars/ringhyacinth/Star-Office-UI?style=flat-square) |
+| [openclaw-control-center](https://github.com/TianyiDataScience/openclaw-control-center) | Dashboard | Turn OpenClaw from a black box into a local control center you can see, trust, and control. ![GitHub stars](https://img.shields.io/github/stars/TianyiDataScience/openclaw-control-center?style=flat-square) |
 
 ## Memory & Knowledge
 
@@ -348,6 +357,7 @@ OpenClaw natively supports 15+ messaging platforms via its Gateway:
 | Project | Language | Stars | Description |
 |---------|----------|-------|-------------|
 | [memU](https://github.com/NevaMind-AI/memU) | Python | ![GitHub stars](https://img.shields.io/github/stars/NevaMind-AI/memU?style=flat-square) | Proactive agent with hierarchical knowledge graph, RAG + non-embedding retrieval, anticipated actions. |
+| [OpenViking](https://github.com/volcengine/OpenViking) | Python | ![GitHub stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=flat-square) | Open-source context database for AI agents by ByteDance/Volcengine — unifies memory, resources, and skills through a filesystem paradigm. |
 
 ## Voice & Home Automation
 
@@ -361,6 +371,7 @@ OpenClaw natively supports 15+ messaging platforms via its Gateway:
 | [openclaw_conversation](https://github.com/Djelibeybi/openclaw_conversation) | HA Component | Custom component using OpenClaw as AI backend for HA conversation and task pipelines. ![GitHub stars](https://img.shields.io/github/stars/Djelibeybi/openclaw_conversation?style=flat-square) |
 | [openclaw-conversation](https://github.com/nolasgl/openclaw-conversation) | HACS | Connects HA voice pipeline to OpenClaw Gateway (Whisper STT → OpenClaw → Piper TTS). ![GitHub stars](https://img.shields.io/github/stars/nolasgl/openclaw-conversation?style=flat-square) |
 | [SwitchBot AI Hub](https://us.switch-bot.com/products/switchbot-ai-hub) | Hardware | World's first local home AI agent hardware with native OpenClaw — runs locally, 100+ SwitchBot devices, Matter bridging, Frigate integration, optional HA install. |
+| [VisionClaw](https://github.com/Intent-Lab/VisionClaw) | Voice+Vision | Real-time AI assistant for Meta Ray-Ban smart glasses — voice, vision, and agentic actions via Gemini Live and OpenClaw. ![GitHub stars](https://img.shields.io/github/stars/Intent-Lab/VisionClaw?style=flat-square) |
 
 ## Benchmarks & Research
 
@@ -405,6 +416,8 @@ OpenClaw natively supports 15+ messaging platforms via its Gateway:
 | [agents-radar](https://github.com/duanyytop/agents-radar) | GitHub Actions workflow tracking OpenClaw ecosystem, Claude Code, Codex, Gemini CLI, and AI trending — daily bilingual digests, MCP server, RSS, Telegram. |
 | [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | Community collection of 34+ real-world OpenClaw use cases — DevOps, creative pipelines, finance, research. |
 | [awesome-claws (LHL3341)](https://github.com/LHL3341/awesome-claws) | Curated list of OpenClaw-related products, skills, communities, and ecosystem resources by use case. |
+| [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) | 162 production-ready AI agent templates with SOUL.md configs across 19 categories. |
+| [awesome-openclaw-tutorial](https://github.com/xianyu110/awesome-openclaw-tutorial) | Most comprehensive Chinese tutorial — install, config, real-world cases, troubleshooting. |
 
 ## Learning Resources
 

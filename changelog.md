@@ -5,15 +5,81 @@
 
 <br>
 
-<a href="#"><img src="https://img.shields.io/badge/Latest_Release-March_14,_2025-000000?style=for-the-badge&logo=rocket&logoColor=white&labelColor=312E81&color=1E1B4B" alt="Date" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Ecosystem_Growth-+7_Projects-000000?style=for-the-badge&logo=sparkles&logoColor=FDE047&labelColor=064E3B&color=022C22" alt="Growth" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Latest_Release-April_4,_2026-000000?style=for-the-badge&logo=rocket&logoColor=white&labelColor=312E81&color=1E1B4B" alt="Date" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Ecosystem_Growth-+10_Projects-000000?style=for-the-badge&logo=sparkles&logoColor=FDE047&labelColor=064E3B&color=022C22" alt="Growth" /></a>
 <a href="#"><img src="https://img.shields.io/badge/System_Status-Optimal-000000?style=for-the-badge&logo=checkmarx&logoColor=86EFAC&labelColor=1C1917&color=292524" alt="Status" /></a>
 
 </div>
 
 <br>
 
-## 🚀 **Update Payload: `v14.03.25`**
+## 🚀 **Update Payload: `v04.04.26`**
+
+> **TL;DR** — 10 new projects spanning security hardening, high-performance C++/Rust runtimes, NVIDIA's managed stack, a Python SDK, new dashboards, and the first hardware device with native OpenClaw support.
+
+<br>
+
+### ⚡ `High-Performance Runtimes`
+*New runtimes pushing the performance envelope.*
+
+|  | Project & Nexus | Specifications & Architecture | Gateway |
+|:---:|:---|:---|:---:|
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **QuantClaw**<br><sub>`@high-perf`</sub> | <kbd>Stack</kbd> Native C++ implementation for extreme performance.<br><kbd>Focus</kbd> OpenClaw-compatible workspace, skills, WebSocket RPC, BM25 memory. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#high-performance-runtimes) |
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **RustyClaw**<br><sub>`@high-perf`</sub> | <kbd>Stack</kbd> Drop-in replacement with 10x less memory.<br><kbd>Focus</kbd> Agentic AI OS — tools, memory, isolation, scheduling. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#high-performance-runtimes) |
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **RayClaw**<br><sub>`@high-perf`</sub> | <kbd>Stack</kbd> Unified Rust agent engine.<br><kbd>Focus</kbd> Telegram, Discord, Slack, Feishu/Lark, Web UI. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#high-performance-runtimes) |
+
+<br>
+
+### 🔒 `Security & Privacy`
+*Major wave of security tooling following exposed-instance incidents.*
+
+|  | Project & Nexus | Specifications & Architecture | Gateway |
+|:---:|:---|:---|:---:|
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **ClawSecure**<br><sub>`@security`</sub> | <kbd>Type</kbd> OWASP ASI Top 10 scanner.<br><kbd>Focus</kbd> 2,890+ skills audited, 55+ threat patterns. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#security--privacy) |
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **ClawSec**<br><sub>`@prompt-security`</sub> | <kbd>Type</kbd> Security skill suite.<br><kbd>Focus</kbd> SOUL.md drift detection, automated audits. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#security--privacy) |
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **SecureClaw**<br><sub>`@adversa-ai`</sub> | <kbd>Type</kbd> OWASP-aligned plugin.<br><kbd>Focus</kbd> Security skill for OpenClaw agents. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#security--privacy) |
+
+<br>
+
+### 🏢 `Platforms & Managed Services`
+*Enterprise-grade deployment stacks.*
+
+|  | Project & Nexus | Specifications & Architecture | Gateway |
+|:---:|:---|:---|:---:|
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **NemoClaw**<br><sub>`@NVIDIA`</sub> | <kbd>Stack</kbd> NVIDIA OpenShell reference stack.<br><kbd>Focus</kbd> Hardened blueprint, declarative network policies, managed inference. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#platforms--managed-services) |
+
+<br>
+
+### 📦 `SDKs & Client Libraries`
+*New language coverage.*
+
+|  | Project & Nexus | Specifications & Architecture | Gateway |
+|:---:|:---|:---|:---:|
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **openclaw-sdk**<br><sub>`@python`</sub> | <kbd>Stack</kbd> Python SDK via PyPI.<br><kbd>Focus</kbd> Sync/streaming execution, cron, cost monitoring, FastAPI routers. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#sdks--client-libraries) |
+
+<br>
+
+### 🖥️ `Tooling, UIs & Dashboards`
+*New visual frontends for OpenClaw.*
+
+|  | Project & Nexus | Specifications & Architecture | Gateway |
+|:---:|:---|:---|:---:|
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **OpenClaw Studio**<br><sub>`@tooling`</sub> | <kbd>Stack</kbd> Web dashboard via `npx`.<br><kbd>Focus</kbd> Agent management, chat, approvals, job config. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#tooling-uis--dashboards) |
+
+<br>
+
+### 🏠 `Voice & Home Automation`
+*Hardware meets AI agents.*
+
+|  | Project & Nexus | Specifications & Architecture | Gateway |
+|:---:|:---|:---|:---:|
+| <img src="https://img.shields.io/badge/NEW-10B981?style=flat-square&labelColor=064E3B" width="50" alt="NEW" /> | **SwitchBot AI Hub**<br><sub>`@hardware`</sub> | <kbd>Type</kbd> First local home AI agent hardware.<br><kbd>Focus</kbd> Native OpenClaw, 100+ devices, Matter, Frigate. | [![Docs](https://img.shields.io/badge/Open_Docs-4F46E5?style=flat-square&logo=gitbook&logoColor=white)](#voice--home-automation) |
+
+<br>
+
+---
+
+## 🚀 **Update Payload: `v14.03.25`** *(Previous)*
 
 > **TL;DR** — A massive expansion of the ecosystem, introducing our new lightweight orchestration framework, foundational research benchmarks, a lightning-fast router, and three major community hubs.
 

@@ -10,7 +10,7 @@
 
 **A comprehensive, community-driven collection of projects, tools, and resources built around [OpenClaw](https://github.com/openclaw/openclaw) — the open-source personal AI agent.**
 
-120+ projects across 20 categories · Rust to Zig · Cloud to ESP32
+130+ projects across 20 categories · Rust to Zig · Cloud to ESP32
 
 [Submit a Project](#contributing) · [Report Broken Link](https://github.com/hugomrvt/awesome-openclaw-ecosystem/issues) · [Suggest Category](https://github.com/hugomrvt/awesome-openclaw-ecosystem/issues)
 
@@ -107,6 +107,9 @@
 | [OpenFang](https://github.com/RightNow-AI/openfang) | Rust | ![GitHub stars](https://img.shields.io/github/stars/RightNow-AI/openfang?style=flat-square) | Open-source Agent OS — 137K LOC, 14 crates, 1,767+ tests, zero clippy warnings. |
 | [Carapace (Rust)](https://github.com/puremachinery/carapace) | Rust | ![GitHub stars](https://img.shields.io/github/stars/puremachinery/carapace?style=flat-square) | Hardened Rust alternative extensible via WASM plugins — "for when your assistant needs a hard shell." |
 | [ClawRouter](https://github.com/BlockRunAI/ClawRouter) | TypeScript | ![GitHub stars](https://img.shields.io/github/stars/BlockRunAI/ClawRouter?style=flat-square) | Agent-native LLM router for OpenClaw — 41+ models, <1ms routing, USDC payments on Base & Solana via x402. |
+| [QuantClaw](https://github.com/QuantClaw/QuantClaw) | C++ | ![GitHub stars](https://img.shields.io/github/stars/QuantClaw/QuantClaw?style=flat-square) | Native C++ OpenClaw implementation for extreme performance — compatible with workspace files, skills, and WebSocket RPC protocol, multi-provider LLM with failover and BM25 memory search. |
+| [RustyClaw](https://github.com/rexlunae/RustyClaw) | Rust | ![GitHub stars](https://img.shields.io/github/stars/rexlunae/RustyClaw?style=flat-square) | Drop-in OpenClaw replacement with 10x less memory — agentic AI OS with tools, memory, isolation, scheduling, and secure credential management. |
+| [RayClaw](https://github.com/rayclaw/rayclaw) | Rust | ![GitHub stars](https://img.shields.io/github/stars/rayclaw/rayclaw?style=flat-square) | Agentic AI assistant connecting Telegram, Discord, Slack, Feishu/Lark, and Web UI through a unified agent engine. |
 
 ## Edge & Embedded
 
@@ -149,6 +152,9 @@
 | [Carapace (container)](https://github.com/justmiles/carapace) | Docker | ![GitHub stars](https://img.shields.io/github/stars/justmiles/carapace?style=flat-square) | Robust container environment for OpenClaw — isolated workspace, GUI, persistent services. |
 | [openclaw-security-practice-guide](https://github.com/slowmist/openclaw-security-practice-guide) | Markdown | ![GitHub stars](https://img.shields.io/github/stars/slowmist/openclaw-security-practice-guide?style=flat-square) | Definitive security guide — 20 red-team test cases from prompt injections to OS privilege escalations. |
 | [openclaw-hardened-ansible](https://github.com/Next-Kick/openclaw-hardened-ansible) | Ansible | ![GitHub stars](https://img.shields.io/github/stars/Next-Kick/openclaw-hardened-ansible?style=flat-square) | 3-tier hardened deployment — rootless Podman, LiteLLM credential brokering, multi-agent risk separation. |
+| [ClawSecure](https://github.com/ClawSecure/clawsecure-openclaw-security) | — | ![GitHub stars](https://img.shields.io/github/stars/ClawSecure/clawsecure-openclaw-security?style=flat-square) | Free security scanner with full OWASP ASI Top 10 coverage — audited 2,890+ skills, 3-layer audit protocol with 55+ OpenClaw-specific threat patterns. [Website](https://www.clawsecure.ai). |
+| [ClawSec](https://github.com/prompt-security/clawsec) | Python/TS | ![GitHub stars](https://img.shields.io/github/stars/prompt-security/clawsec?style=flat-square) | Security skill suite by Prompt Security — SOUL.md drift detection, live recommendations, automated audits, and skill integrity verification. |
+| [SecureClaw](https://github.com/adversa-ai/secureclaw) | — | ![GitHub stars](https://img.shields.io/github/stars/adversa-ai/secureclaw?style=flat-square) | OWASP-aligned security plugin and skill for OpenClaw by Adversa AI. |
 
 ## Multi-Agent & Orchestration
 
@@ -189,6 +195,7 @@
 | [Autobot](https://github.com/crystal-autobot/autobot) | Crystal | ![GitHub stars](https://img.shields.io/github/stars/crystal-autobot/autobot?style=flat-square) | AI assistant with kernel sandboxing, multi-provider LLM, voice, vision, cron, MCP tools. |
 | [Jan.ai](https://jan.ai) | — | — | 100% offline, privacy-first desktop application for local chat. |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | JavaScript | ![GitHub stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat-square) | Open-source LLM orchestration hub for private knowledge bases. |
+| [NemoClaw](https://github.com/NVIDIA/NemoClaw) | TypeScript/YAML | ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NemoClaw?style=flat-square) | By **NVIDIA**. Open-source reference stack for running OpenClaw securely inside NVIDIA OpenShell — hardened blueprint with declarative network policies and managed inference. |
 
 ## Hosted OpenClaw (OpenClaw-as-a-Service)
 
@@ -287,6 +294,7 @@
 | [acpx](https://github.com/openclaw/acpx) | TypeScript | Official headless ACP CLI for programmatic interaction without a UI. |
 | [vscode-acp](https://github.com/formulahendry/vscode-acp) | TypeScript | VS Code extension — connects to OpenClaw + 8 other coding agents via Agent Client Protocol. ![GitHub stars](https://img.shields.io/github/stars/formulahendry/vscode-acp?style=flat-square) |
 | [LobeHub Market CLI](https://lobehub.com/skills/openclaw-skills-lobster) | Node.js | Cross-agent skill marketplace CLI — install skills for OpenClaw, Claude Code, Codex, Cursor. |
+| [openclaw-sdk](https://github.com/masteryodaa/openclaw-sdk) | Python | ![GitHub stars](https://img.shields.io/github/stars/masteryodaa/openclaw-sdk?style=flat-square) | Python SDK — sync/streaming agent execution, channel management, cron scheduling, cost monitoring, Pydantic structured output, and FastAPI routers. `pip install openclaw-sdk`. |
 
 ## Plugins & Extensions
 
@@ -330,6 +338,8 @@ OpenClaw natively supports 15+ messaging platforms via its Gateway:
 | [Clawmit](https://clawmit.xyz) | Versioning | "GitHub for AI Agents" — versioning, forking, prompt mutation, instant rollback. |
 | [TrustClaw Marketplace](https://trustclaw.xyz) | Marketplace | Security-verified skill marketplace with automated scanning and human review. |
 | [explain-openclaw](https://github.com/centminmod/explain-openclaw) | Documentation | Multi-AI architecture deep dives, security audits, deployment guides. ![GitHub stars](https://img.shields.io/github/stars/centminmod/explain-openclaw?style=flat-square) |
+| [OpenClaw Studio](https://github.com/grp06/openclaw-studio) | Web UI | Clean web dashboard — connect your Gateway, manage agents, chat, handle approvals, and configure jobs. Run via `npx openclaw-studio@latest`. ![GitHub stars](https://img.shields.io/github/stars/grp06/openclaw-studio?style=flat-square) |
+| [OpenClaw Dashboard (actionagentai)](https://github.com/actionagentai/openclaw-dashboard) | Web UI | Modern 12-page web interface for managing OpenClaw gateway — every CLI command as a UI page with speech-to-text everywhere. ![GitHub stars](https://img.shields.io/github/stars/actionagentai/openclaw-dashboard?style=flat-square) |
 
 ## Memory & Knowledge
 
@@ -350,6 +360,7 @@ OpenClaw natively supports 15+ messaging platforms via its Gateway:
 | [openclaw-ha-addon](https://github.com/ngutman/openclaw-ha-addon) | HA Add-on | Home Assistant add-on for `clawdbot_gateway` with SSH tunnel support. ![GitHub stars](https://img.shields.io/github/stars/ngutman/openclaw-ha-addon?style=flat-square) |
 | [openclaw_conversation](https://github.com/Djelibeybi/openclaw_conversation) | HA Component | Custom component using OpenClaw as AI backend for HA conversation and task pipelines. ![GitHub stars](https://img.shields.io/github/stars/Djelibeybi/openclaw_conversation?style=flat-square) |
 | [openclaw-conversation](https://github.com/nolasgl/openclaw-conversation) | HACS | Connects HA voice pipeline to OpenClaw Gateway (Whisper STT → OpenClaw → Piper TTS). ![GitHub stars](https://img.shields.io/github/stars/nolasgl/openclaw-conversation?style=flat-square) |
+| [SwitchBot AI Hub](https://us.switch-bot.com/products/switchbot-ai-hub) | Hardware | World's first local home AI agent hardware with native OpenClaw — runs locally, 100+ SwitchBot devices, Matter bridging, Frigate integration, optional HA install. |
 
 ## Benchmarks & Research
 

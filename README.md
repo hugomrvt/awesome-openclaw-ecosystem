@@ -206,6 +206,7 @@
 | [ClawHost](https://github.com/bfzli/clawhost) | Open-source self-hostable cloud deployer for OpenClaw. ![GitHub stars](https://img.shields.io/github/stars/bfzli/clawhost?style=flat-square) | Free |
 | [SunClaw](https://sunclaw.kiisha.io) | Web wizard deploying to 8 platforms, 16+ LLM providers, zero CLI. | Free |
 | [Emergent.sh](https://emergent.sh/tutorial/moltbot-on-emergent) | Pre-built MoltBot chip — auto-provisioned managed VMs, 2–8 min setup. | 50 credits/mo |
+| [Silos Dashboard](https://silosplatform.com) | Managed OpenClaw with shared browser sandbox, multi-channel support (WhatsApp, Telegram, Web), skills marketplace, and Docker-based isolation. Also self-hostable. [GitHub](https://github.com/cheapestinference/silos). | Free tier |
 
 ## Deployment & Infrastructure
 
@@ -330,6 +331,7 @@ OpenClaw natively supports 15+ messaging platforms via its Gateway:
 | [Clawmit](https://clawmit.xyz) | Versioning | "GitHub for AI Agents" — versioning, forking, prompt mutation, instant rollback. |
 | [TrustClaw Marketplace](https://trustclaw.xyz) | Marketplace | Security-verified skill marketplace with automated scanning and human review. |
 | [explain-openclaw](https://github.com/centminmod/explain-openclaw) | Documentation | Multi-AI architecture deep dives, security audits, deployment guides. ![GitHub stars](https://img.shields.io/github/stars/centminmod/explain-openclaw?style=flat-square) |
+| [Silos Dashboard](https://github.com/cheapestinference/silos) | Dashboard | Multi-user OpenClaw dashboard — shared browser sandbox, multi-channel (WhatsApp, Telegram, Web), ClawHub skills marketplace, Docker deploy. Managed option at [silosplatform.com](https://silosplatform.com). ![GitHub stars](https://img.shields.io/github/stars/cheapestinference/silos?style=flat-square) |
 
 ## Memory & Knowledge
 

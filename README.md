@@ -357,6 +357,7 @@ OpenClaw natively supports 15+ messaging platforms via its Gateway:
 
 | Project | Language | Stars | Description |
 |---------|----------|-------|-------------|
+| [ClawBench](https://claw-bench.com) | Python | ![GitHub stars](https://img.shields.io/github/stars/reacher-z/ClawBench?style=flat-square) | Evaluates OpenClaw and other web-agent harnesses on 283 everyday tasks across live websites, with isolated runs, request interception, and five-layer traces. [Code](https://github.com/reacher-z/ClawBench) · [Paper](https://arxiv.org/abs/2604.08523). |
 | [ClawWork](https://github.com/HKUDS/ClawWork) | Python | ![GitHub stars](https://img.shields.io/github/stars/HKUDS/ClawWork?style=flat-square) | Turns agents into economically responsible AI Coworkers — 220 GDP tasks across 44 industries. |
 | [PinchBench](https://pinchbench.com) | TypeScript | — | Open-source real-world benchmark — 23 tasks (calendar, research, email, coding). [Leaderboard](https://pinchbench.com). |
 | [OpenClaw-RL](https://github.com/Gen-Verse/OpenClaw-RL) | TypeScript | ![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/OpenClaw-RL?style=flat-square) | Async RL framework by Princeton — train a personalized agent simply by talking to it. Binary feedback or token-level distillation. [Paper](https://arxiv.org/abs/2603.10165). |
